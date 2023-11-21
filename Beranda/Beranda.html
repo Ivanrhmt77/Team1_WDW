@@ -141,12 +141,12 @@
           var scrollPosition = window.scrollY;
 
           if (scrollPosition > 100) {
-            navhead.style.transition = "background-color 0.5s ease";
+            navhead.style.transition = "background-color 0.2s ease";
             navhead.style.backgroundColor = "#ffffff";
             navhead.style.boxShadow = "0px 4px 4px 0px rgba(0, 0, 0, 0.25)";
 
             navItems.forEach(function (item) {
-              item.style.transition = "color 0.5s ease";
+              item.style.transition = "color 0.2s ease";
               item.style.color = "#000000";
             });
           } else {
@@ -155,7 +155,7 @@
             navhead.style.boxShadow = "none";
 
             navItems.forEach(function (item) {
-              item.style.transition = "color 0.5s ease";
+              item.style.transition = "color 0.2s ease";
               item.style.color = "#ffffff";
             });
           }
