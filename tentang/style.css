@@ -38,13 +38,11 @@ nav .logo img {
 
 /* FOOTER */
 footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
   background-color: #ba9b57;
   color: white;
   font-weight: bold;
   padding: 30px;
+  text-align: center;
 }
 /* /FOOTER */
 
