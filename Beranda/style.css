@@ -83,8 +83,9 @@ nav .logo img {
 .sub-judul {
   font-size: 64px;
 }
-.pg {
+p.pg {
   font-size: 25px;
+  text-align: justify;
 }
 .desc-content {
   display: flex;
