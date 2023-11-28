@@ -107,7 +107,7 @@ p.pg {
 }
 .image-box img {
   width: 100%;
-  height: auto;
+  height: 80%;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 0;
