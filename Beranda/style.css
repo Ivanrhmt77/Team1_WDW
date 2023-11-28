@@ -80,6 +80,10 @@ nav .logo img {
   margin-top: 900px;
   margin-left: 30px;
 }
+content div a{
+  text-decoration: none;
+  color: black;
+}
 .sub-judul {
   font-size: 64px;
 }
