@@ -15,7 +15,7 @@ header nav {
   padding-left: 70px;
   padding-right: 70px;
 }
-  
+
 /* bendera */
 .navbar .bahasa img {
   width: 25px;
@@ -48,21 +48,53 @@ footer {
 }
 /* /FOOTER */
 
-.konten{
+.konten {
   text-align: center;
   margin-left: 30px;
   margin-right: 30px;
 }
-.judul{
+.judul {
   font-size: 36px;
 }
-.paragraf{
+.paragraf {
   display: flex;
   text-align: justify;
   font-size: 28px;
   justify-content: space-between;
 }
-.paragraf div{
+.paragraf div {
   flex: 1;
   margin: 30px;
+}
+.contact {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 30px 0 30px;
+}
+.box {
+  background-color: #dbd8ae;
+  padding: 5px 20px 15px 20px;
+  border-radius: 15px;
+  width: 300px;
+  height: 350px;
+  border: 1px solid black;
+}
+.box img {
+  width: 175px;
+  height: 175px;
+  object-fit: cover;
+  margin: 20px;
+  object-position: 0 0;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.box p {
+  margin: 0;
+  text-align: start;
+  padding: 0 0 5px 0;
+}
+.info {
+  width: fit-content;
+  margin-left: 11%;
+  margin-right: 11%;
 }
